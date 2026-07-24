@@ -186,6 +186,11 @@ software:
 
   packages: # Custom packages (if any)
     # macOS custom packages
+    - path: ../platforms/macos/software/zoom.yml  # macOS custom packages
+      self_service: true
+      setup_experience: true
+      catergories: 
+       - Communications
     # …
 
     # Windows custom packages

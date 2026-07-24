@@ -23,9 +23,13 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: MATT
+    org_name: MATTS_ORG
 
-
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/366ed56c-7b6b-4328-8164-a9ae645665f8
+      
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.

@@ -119,7 +119,7 @@ controls:
   ###########################################################
   scripts:
     - paths: ../platforms/macos/scripts/*.sh
-    - path: ../platforms/windows/scripts/*.ps1
+    - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
 
 ###########################################################
